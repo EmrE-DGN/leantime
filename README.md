@@ -1,155 +1,122 @@
+-----
 
-<div align="center">
-<a href="https://leantime.io"><img src="https://leantime.io/wp-content/uploads/2023/03/leantime_logo.png" alt="Leantime Logo" width="300"/></a>
+# Leantime®
 
-# Leantime&reg; 
+⭐ Leantime'ı faydalı buluyorsanız, lütfen bizi GitHub'da yıldızlayın\! ⭐
 
-⭐ If you find Leantime useful, please star us on GitHub! ⭐
+Leantime, proje yöneticisi olmayanlar için açık kaynaklı bir proje yönetim sistemidir. Strateji, planlama ve yürütmeyi bir araya getirirken, ekipteki herkesin kullanmasını kolaylaştırıyoruz. ADHD, disleksi ve otizm düşünülerek tasarlandı. 🧠
 
-Leantime is an open source project management system for non-project managers.<br />
-We combine strategy, planning and execution while making it easy for everyone on the team to use.<br />
-Built with ADHD, dyslexia and autism in mind. 🧠<br />
+💪 Trello kadar basit ama Jira kadar zengin özellikli
+🔄 ClickUp, Monday veya Asana'ya mükemmel bir alternatif
+🌐 [https://leantime.io](https://leantime.io)
 
-💪 As simple as Trello but as feature-rich as Jira<br />
-🔄 A perfect alternative to ClickUp, Monday, or Asana<br />
-🌐 [https://leantime.io](https://leantime.io)<br />
+[](https://www.gnu.org/licenses/agpl-3.0.en.html)
+[](https://hub.docker.com/r/leantime/leantime)
+[](https://discord.gg/4zMzJtAq9z)
+[](https://crowdin.com/project/leantime)
+\<br /\>
 
-<a href="https://trendshift.io/repositories/2264" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2264" alt="A screenshot of Leantime's my work dashboard showing a few boxes with large metrics represnting todos complete, goals contributing to, scheduled todos. Also shows a day calendar with one task on it and a list of tasks grouped by Overdue, Due this week and Due Later" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+-----
 
-[![License Badge](https://img.shields.io/github/license/leantime/leantime?style=flat-square)](https://www.gnu.org/licenses/agpl-3.0.en.html)
-[![Docker Hub Badge](https://img.shields.io/docker/pulls/leantime/leantime?style=flat-square)](https://hub.docker.com/r/leantime/leantime)
-![Github Downloads](https://img.shields.io/github/downloads/leantime/leantime/total)
-[![Discord Badge](https://img.shields.io/discord/990001288026677318?label=Discord&style=flat-square)](https://discord.gg/4zMzJtAq9z)
-[![Crowdin](https://badges.crowdin.net/leantime/localized.svg)](https://crowdin.com/project/leantime)
-![GitHub Sponsors](https://img.shields.io/github/sponsors/leantime)
-<br />
+## 🚀 Özellikler\*
 
-  ![alt text](public/assets/images/Screenshots/mywork-v3.5.png "Home Screen")
+| Görev Yönetimi                                         | Proje Planlama                                    | Bilgi/Bilgi Yönetimi                             | Yönetim                                       |
+| :----------------------------------------------------- | :------------------------------------------------ | :----------------------------------------------- | :-------------------------------------------- |
+| Kanban panoları, gantt, tablo, liste ve takvim görünümleri aracılığıyla görev yönetimi | Proje Panoları, raporlar ve durum güncellemeleri | Wikiler / Belgeler                               | Kolay kurulum                                 |
+| Sınırsız alt görev ve bağımlılıklar                   | Hedef ve metrik takibi                            | Fikir Panoları                                   | Çoklu kullanıcı rolleri ve proje bazında izinler |
+| Dönüm noktası yönetimi                                 | Lean & İş Modeli Kanvası                          | Retrospektifler                                  | İki faktörlü kimlik doğrulama                  |
+| Sprint Yönetimi                                        | SWOT Analizi kanvası                              | S3 veya yerel dosya sistemi aracılığıyla dosya depolama | LDAP, OIDC entegrasyonu                         |
+| Zaman takibi ve zaman çizelgeleri                      | Risk Analizi                                      | Ekran ve web kamerası kaydı                      | Eklentiler ve API aracılığıyla genişletilebilir |
+|                                                        | ... ve daha fazlası                               | Her şeyde yorumlar/tartışmalar                   | Slack, Mattermost, Discord ile entegre olur   |
+|                                                        | ... ve daha fazlası                               |                                                  | 20'den fazla dilde mevcuttur                  |
+\*Evet, tüm bu özellikler OSS sürümünde bulunur.
 
-</div>
-<br /><br />
+-----
 
-## 🚀 Features* ##
-| Task Management                                                      | Project Planning                             | Information/Knowledge Management        | Administration                                  |
-| -------------------------------------------------------------------- | -------------------------------------------- | --------------------------------------- |-------------------------------------------------|
-| Task management via<br>kanban boards, gantt, table, list and calendar views | Project Dashboards, reports & status updates | Wikis / Docs                     | Easy installation                               |
-| Unlimited subtasks and dependencies                                  | Goal & metrics tracking                      | Idea Boards                             | Multiple user roles and per project permissions |
-| Milestone management                                                 | Lean & Business Model Canvas                 | Retrospectives                          | Two factor authentication                       |
-| Sprint Management                                                    | SWOT Analysis canvas                         | File Storage via S3 or local filesystem | LDAP, OIDC integration                          |
-| Timetracking & timesheets                                            | Risk Analysis                                | Screen & webcam recording               | Extendable via plugins and API                  |
-|                                                                      | ... and more                                 | Comments/discussions on everything      | Integrates with Slack, Mattermost, Discord      |
-|                                                                      | ... and more                                 |     | Available in over 20 languages                  |     
-*yes, all of these features are included in the OSS version
-<br /><br />
-### 📸 Screenshots ###
+## 📸 Ekran Görüntüleri
 
-<table width="100%">
-    <tr>
-        <td width="33%"><img alt="Screenshot of Leantime's my work dashboard but with a dark color scheme. All colors are darkened or reverted" src="public/assets/images/Screenshots/dark.png" title="My Work" /></td>
-        <td width="33%"><img alt="Screenshot of Leantime's project dashboard showing a project checklist that has the first box checked, the latest tasks (1 right now), a progress donut chart at 0%" src="public/assets/images/Screenshots/projectDashboard.png" title="Project Dashboard" /></td>
-        <td width="33%"><img alt="Screenshot of Leantime's todo screen in table format. Tasks are grouped by status where each Status has a different color" src="public/assets/images/Screenshots/table.png" title="Grouped To-Dos" /></td>
-    </tr>
-    <tr>
-        <td><img alt="alt text" src="public/assets/images/Screenshots/kanban.png" title="Kanban Board"/></td>
-        <td><img alt="Screenshot of Leantime's timeline or gantt feature showing a timeline with various milestone boxes different in length representing how long these take. Each milestone has a different color and they are connected with an arrow" src="public/assets/images/Screenshots/timeline.png" title="Tasks on timeline" /></td>
-        <td><img alt="Screenshot of Leantime's personal calendar screen showing a month overview with a few tasks" src="public/assets/images/Screenshots/calendar.png" title="Project Calendar" /></td>
-    </tr>
-    <tr>
-        <td><img alt="alt text" src="public/assets/images/Screenshots/goals.png" title="Goals" /></td>
-        <td><img alt="Screenshot of Leantime's wiki page showing one template article of a product requirements document formatted with lists and tables" src="public/assets/images/Screenshots/docs.png" title="Documents &amp; Wikis" /></td>
-        <td><img alt="Screenshot of Leantime's timesheet feature with a table a one week overview and input boxes for each day. Tasks are organized in rows" src="public/assets/images/Screenshots/timesheet.png" title="Timesheets" /></td>
-    </tr>
-</table>
+| My Work (Koyu Tema) | Proje Panosu | Gruplandırılmış Yapılacaklar |
+|---------------------|--------------|------------------------------|
+|  |  |  |
 
-<br /><br />
-### ❗System Requirements ###
+| Kanban Panosu | Zaman Çizelgesindeki Görevler | Proje Takvimi |
+|---------------|-------------------------------|---------------|
+|  |  |  |
 
-* PHP 8.2+
-* MySQL 8.0+ or MariaDB 10.6+
-* Apache or Nginx (IIS works with some modifications)
-* PHP Extensions:
-* BC Math (bcmath)
-* Ctype
-* cURL
-* DOM
-* Exif
-* Fileinfo
-* Filter
-* GD
-* Hash
-* LDAP
-* Multibyte String (mbstring)
-* MySQL
-* OPcache
-* OpenSSL
-* PCNTL
-* PCRE
-* PDO
-* Phar
-* Session
-* Tokenizer
-* Zip
-* SimpleXML
-<br /><br />
+| Hedefler | Belgeler & Wikiler | Zaman Çizelgeleri |
+|----------|--------------------|-------------------|
+|  |  |  |
 
+-----
 
-Ctype PHP Extension
-cURL PHP Extension
-DOM PHP Extension
-Fileinfo PHP Extension
-Filter PHP Extension
-Hash PHP Extension
-Mbstring PHP Extension
-OpenSSL PHP Extension
-PCRE PHP Extension
-PDO PHP Extension
-Session PHP Extension
-Tokenizer PHP Extension
-XML PHP Extension
+## ❗ Sistem Gereksinimleri
 
+  * PHP 8.2+
+  * MySQL 8.0+ veya MariaDB 10.6+
+  * Apache veya Nginx (IIS bazı değişikliklerle çalışır)
+  * PHP Uzantıları:
+      * BC Math (bcmath)
+      * Ctype
+      * cURL
+      * DOM
+      * Exif
+      * Fileinfo
+      * Filter
+      * GD
+      * Hash
+      * LDAP
+      * Multibyte String (mbstring)
+      * MySQL
+      * OPcache
+      * OpenSSL
+      * PCNTL
+      * PCRE
+      * PDO
+      * Phar
+      * Session
+      * Tokenizer
+      * Zip
+      * SimpleXML
 
+-----
 
+## ⚡️ Kurulum (Üretim)
 
+Leantime'ı üretim için kurmanın iki ana yolu vardır. Birincisi, sistemin tüm gerekli parçalarını yerel olarak kurmaktır. İkincisi ise resmi olarak desteklenen Docker görüntüsünü kullanmaktır.
 
+### Yerel Üretim Kurulumu
 
+  * En son sürüm paketini (dosya adı: Leantime-vx.x.x.zip) [sürüm sayfasından](https://github.com/Leantime/leantime/releases) indirin.
+  * Boş bir MySQL veritabanı oluşturun.
+  * Tüm dizini sunucunuza yükleyin.
+  * Alan adınızın kökünü `public/` dizinine yönlendirin.
+  * `config/.env.sample` dosyasının adını `config/.env` olarak değiştirin.
+  * Veritabanı kimlik bilgilerinizi (kullanıcı adı, parola, ana bilgisayar, veritabanı adı) `config/.env` dosyasına girin.
+  * `<alanadiniz.com>/install` adresine gidin.
+  * Veritabanını kurmak ve ilk kullanıcı hesabını oluşturmak için talimatları izleyin.
 
-### ️⚡️ Installation (Production) ###
+#### IIS Kurulum Notları
 
-There are two main ways to install LeanTime for production. The first of which is to install all needed pieces of the system locally. The second is to use the officially supported Docker image.
+Yukarıdaki adımlar Internet Information Services (IIS) için de geçerli olsa da, tam işlevsellik sağlamak için IIS'de ek bir yapılandırma değişikliği gerekebilir - **PATCH yöntemine izin vermeniz gerekir**:
 
-#### Local Production Installation ####
+  * IIS'yi açın.
+  * Soldaki sunucuyu ve siteleri genişletin ve Leantime sitesini seçin.
+  * `Handler Mappings`'e çift tıklayın.
+  * Site tarafından kullanılan PHP işleyici eşleşmesine çift tıklayın.
+  * `Request Restrictions…`'a tıklayın.
+  * `Verbs` sekmesine tıklayın.
+  * `One of the following verbs` metin kutusuna `PATCH` ekleyin - örneğin: `GET,HEAD,POST,PATCH`.
+  * `OK` düğmesine tıklayın.
+  * `Executable (optional)` metin kutusuna, `php-cgi.exe` dosyasının yolunun başına ve sonuna çift tırnak karakteri (`“`) koyun (yolda boşluk yoksa buna gerek yoktur).
+  * `OK` düğmesine tıklayın.
+  * Bir açılır pencere FastCGI uygulaması oluşturmak isteyip istemediğinizi soracaktır - `Evet`'e tıklayın.
 
-* Download latest release package (file is called: Leantime-vx.x.x.zip) from the <a href="https://github.com/Leantime/leantime/releases">release page</a>
-* Create an empty MySQL database
-* Upload the entire directory to your server 
-* Point your domain root to the `public/` directory
-* Rename `config/.env.sample` to `config/.env`
-* Fill in your database credentials (username, password, host, dbname) in `config/.env`
-* Navigate to `<yourdomain.com>/install`
-* Follow instructions to install database and set up first user account
+Not: PHP'yi yükselttiğinizde bunu tekrarlamanız gerekebilir.
 
-##### IIS Installation Notes #####
+### Docker Aracılığıyla Üretim Kurulumu
 
-Whilst the steps above are applicable to Internet Information Services (IIS), there is an additional configuration change that may be required in IIS to ensure full functionality - you need to allow the PATCH method:
-
-* Open IIS
-* Expand the server and sites on the left and select the LeanTime site
-* Double click on `Handler Mappings`
-* Double click on the PHP handler mapping that is used by the site
-* Click `Request Restrictions…`
-* Click the `Verbs` tab
-* In the `One of the following verbs` text box, add `PATCH` - for example: `GET,HEAD,POST,PATCH`
-* Click `OK`
-* In the `Executable (optional)` text box, put a double quote character (`“`) at the start and at the end of the path to the `php-cgi.exe` file (_this isn't needed if the path doesn't have a space in it_)
-* Click `OK`
-* A popup will appear asking if you want to create a FastCGI application - click `Yes`
-
-Note: You may need to repeat this when you upgrade PHP.
-
-#### Production Installation via Docker ####
-
-We maintain an official <a href="https://hub.docker.com/r/leantime/leantime">Docker image on dockerhub</a>. 
-To run the image enter your MySQL credentials and execute. You can pass in all the configuration variables from .env
+[Dockerhub'da resmi bir Docker görüntüsü](https://hub.docker.com/r/leantime/leantime) bulundurmaktayız.
+Görüntüyü çalıştırmak için MySQL kimlik bilgilerinizi girin ve yürütün. Tüm yapılandırma değişkenlerini .env dosyasından geçirebilirsiniz.
 
 ```
 docker run -d --restart unless-stopped -p 8080:8080 --network leantime-net \
@@ -161,154 +128,172 @@ docker run -d --restart unless-stopped -p 8080:8080 --network leantime-net \
 --name leantime leantime/leantime:latest
 ```
 
-Unless you have a database defined somewhere else you should use our [docker-compose file](https://github.com/Leantime/docker-leantime/blob/master/docker-compose.yml). 
+Başka bir yerde tanımlanmış bir veritabanınız yoksa, [docker-compose dosyamızı](https://github.com/Leantime/docker-leantime/blob/master/docker-compose.yml) kullanmalısınız.
 
-Once started you can go to `<yourdomain.com>/install` and run the installation script.
+Başlatıldıktan sonra `<alanadiniz.com>/install` adresine giderek kurulum betiğini çalıştırabilirsiniz.
 
-**Important: If you are planning to use plugins you need to mount the plugin folder `plugins:/var/www/html/app/Plugins` and ensure the www-data user has access to it. Otherwise installation may fail or plugins will be removed after a restart**
+**Önemli: Eklentileri kullanmayı planlıyorsanız, `plugins:/var/www/html/app/Plugins` eklenti klasörünü bağlamanız ve www-data kullanıcısının bu klasöre erişebildiğinden emin olmanız gerekir. Aksi takdirde kurulum başarısız olabilir veya eklentiler yeniden başlatıldıktan sonra kaldırılabilir.**
 
-##### Docker Installation Notes #####
+#### Docker Kurulum Notları
 
-If you intend to place Leantime behind a reverse proxy (nginx, etc.) to handle custom domain name resolution and SSL offloading, you will need to set the following environment variable in docker
+Leantime'ı özel alan adı çözünürlüğü ve SSL boşaltmayı ele almak için bir ters proxy'nin (nginx vb.) arkasına yerleştirmeyi düşünüyorsanız, docker'da aşağıdaki ortam değişkenini ayarlamanız gerekecektir:
+
 ```
--e LEAN_APP_URL=https://yourdomain.com \
+-e LEAN_APP_URL=https://alanadiniz.com \
 ```
-* Update yourdomain.com to your custom domain name.
-<br /><br />
-### 🤓 Installation (Development) ###
 
-There are two ways to install a development setup of LeanTime. The first (but most technical) is to install all pieces of the system locally. The second (and preferred method) is to use a docker containerized development environment.
+  * `alanadiniz.com` adresini kendi özel alan adınızla güncelleyin.
 
-#### Local Development Installation ####
+-----
 
-* Clone repository to your local server
-* Create MySQL database
-* Run webpack builder via `make build-dev`
-* Point your local domain to the `public/` directory
-* Rename `config/.env.sample` to `config/.env`
-* Fill in your database credentials (username, password, host, dbname) in `config/.env`
-* Navigate to `<localdomain>/install`
-* Follow instructions to install database and user account
+## 🤓 Kurulum (Geliştirme)
 
-#### Development Installation via Docker ####
+LeanTime'ın bir geliştirme kurulumunu yapmanın iki yolu vardır. Birincisi (ancak en teknik olanı) sistemin tüm parçalarını yerel olarak kurmaktır. İkincisi (ve tercih edilen yöntem) bir docker kapsayıcılı geliştirme ortamı kullanmaktır.
 
-For development, we use a dockerized development environment. You will need to have ``docker``, ``docker compose``, ``make``, ``composer``, ``git`` and ``npm`` installed.
+### Yerel Geliştirme Kurulumu
 
-* Notes for Windows Environments:
-    - Run all commands within the git bash terminal in order to utilize unix specific commands
-    - If installing php from a zip file, make sure to configure php.ini
-    It does not exist initially, so copy C:\php\php.ini-development to C:\php\php.ini. You will also need to edit php.ini in a text editor and enable all needed extensions for the build process. You can find these by running the make commands and looking for any extensions that error out as missing. You can enable them by searching php.ini for the extension that will look like: `;extension=gd` and removing the semicolon. 
+  * Depoyu yerel sunucunuza klonlayın.
+  * MySQL veritabanı oluşturun.
+  * `make build-dev` komutunu kullanarak webpack oluşturucuyu çalıştırın.
+  * Yerel alan adınızı `public/` dizinine yönlendirin.
+  * `config/.env.sample` dosyasının adını `config/.env` olarak değiştirin.
+  * Veritabanı kimlik bilgilerinizi (kullanıcı adı, parola, ana bilgisayar, veritabanı adı) `config/.env` dosyasına girin.
+  * `<yerelalanadi>/install` adresine gidin.
+  * Veritabanını ve kullanıcı hesabını kurmak için talimatları izleyin.
 
-In order to build the development docker image, in the root of this repository, run a primer with
+### Docker Aracılığıyla Geliştirme Kurulumu
 
-```make clean build```
+Geliştirme için, dockerize edilmiş bir geliştirme ortamı kullanıyoruz. `docker`, `docker compose`, `make`, `composer`, `git` ve `npm` yüklü olmalıdır.
 
-afterwards, run 
+  * Windows Ortamları için Notlar:
+      * Unix'e özgü komutları kullanmak için tüm komutları git bash terminalinde çalıştırın.
+      * Php'yi bir zip dosyasından yüklüyorsanız, php.ini'yi yapılandırdığınızdan emin olun.
+      * Başlangıçta mevcut değildir, bu yüzden `C:\php\php.ini-development` dosyasını `C:\php\php.ini` olarak kopyalayın. Ayrıca bir metin düzenleyicide php.ini'yi düzenlemeniz ve derleme süreci için gerekli tüm uzantıları etkinleştirmeniz gerekecektir. Bunları make komutlarını çalıştırarak ve eksik uzantılar olarak hata veren uzantıları arayarak bulabilirsiniz. Bunları, `php.ini` dosyasında `;extension=gd` gibi görünen uzantıyı arayarak ve noktalı virgülü kaldırarak etkinleştirebilirsiniz.
 
-```make run-dev```
+Geliştirme docker görüntüsünü oluşturmak için, bu deponun kök dizininde, bir ön hazırlık komutu çalıştırın:
 
-this will start the development server on port 8090.
+`make clean build`
 
-The dev environment provides a MySQL server, mail server, s3 server, and should be good to go for your needs out of the box. The configuration of the development environment is found in ``.dev/.env``, and is already seeded with the appropriate values. **You should probably not be modifying this unless you plan to work on a feature for a specific integration**. the applications you get are as follows
+ardından, şunu çalıştırın:
 
-* [http://localhost:8090](http://localhost:8090) : leantime
-* [http://localhost:8081](http://localhost:8081) : maildev - to check emails sent
-* [http://localhost:8082](http://localhost:8082) : phpMyAdmin(authentication ``leantime:leantime``) to check the DB schema and data
-* [http://localhost:8083](http://localhost:8083) : s3ninja - to check s3 uploads. You need to enable this in the ``.dev/.env`` file by enabling s3
+`make run-dev`
 
-Additionally, Xdebug is enabled, but you will have to modify your 
-IDE key in the ``.dev/xdebug.ini`` file(or alternatively, on your IDE). You also need to have port 9003 temporarily open on your firewall so you can utilize it effectively. This is because connections from docker to the host will count as external inbound connections
-<br /><br />
+Bu, geliştirme sunucusunu 8090 numaralı bağlantı noktasında başlatacaktır.
 
-### Run Tests
+Geliştirme ortamı bir MySQL sunucusu, posta sunucusu, s3 sunucusu sağlar ve kutudan çıktığı gibi ihtiyaçlarınız için iyi olmalıdır. Geliştirme ortamının yapılandırması `.dev/.env` dosyasında bulunur ve uygun değerlerle zaten önceden doldurulmuştur. **Özel bir entegrasyon üzerinde çalışmayı planlamıyorsanız muhtemelen bunu değiştirmemelisiniz.** alacağınız uygulamalar şunlardır:
 
-Static Analysis `make phpstan`<br />
-Code Style `make test-code-style` (to fix code style automatically use `make fix-code-style`)<br />
-Unit Tests `make unit-test`<br />
-Acceptance Tests `make acceptance-test`<br /> (requires docker)
+  * [http://localhost:8090](https://www.google.com/search?q=http://localhost:8090) : leantime
+  * [http://localhost:8081](https://www.google.com/search?q=http://localhost:8081) : maildev - gönderilen e-postaları kontrol etmek için
+  * [http://localhost:8082](https://www.google.com/search?q=http://localhost:8082) : phpMyAdmin (kimlik doğrulama `leantime:leantime`) - DB şemasını ve verilerini kontrol etmek için
+  * [http://localhost:8083](https://www.google.com/search?q=http://localhost:8083) : s3ninja - s3 yüklemelerini kontrol etmek için. Bunu `.dev/.env` dosyasında s3'ü etkinleştirerek etkinleştirmeniz gerekir.
 
-You can test individual acceptance test groups directly using:<br />
-For api: <br />
-`docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec leantime-dev php vendor/bin/codecept run -g api --steps`<br />
-For timesheets: <br />
-`docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec leantime-dev php vendor/bin/codecept run -g timesheet --steps`<br />
+Ek olarak, Xdebug etkinleştirilmiştir, ancak IDE anahtarınızı `.dev/xdebug.ini` dosyasında (veya alternatif olarak IDE'nizde) değiştirmeniz gerekecektir. Ayrıca, güvenlik duvarınızda 9003 numaralı bağlantı noktasını geçici olarak açmanız gerekir, böylece etkili bir şekilde kullanabilirsiniz. Bunun nedeni, docker'dan ana bilgisayara yapılan bağlantıların harici gelen bağlantılar olarak sayılmasıdır.
 
+-----
 
-###  🏗 Update ###
+### Testleri Çalıştır
 
-#### Manual
-* Make sure to take a backup of your database and files
-* Replace all files in your directory with the updated version
-* If there were any database changes, the system will redirect you to `<yourdomain.com>/update`
+Statik Analiz `make phpstan`
+Kod Stili `make test-code-style` (kod stilini otomatik olarak düzeltmek için `make fix-code-style` kullanın)
+Birim Testleri `make unit-test`
+Kabul Testleri `make acceptance-test` (docker gerektirir)
+
+Bireysel kabul testi gruplarını doğrudan kullanarak test edebilirsiniz:
+API için:
+`docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec leantime-dev php vendor/bin/codecept run -g api --steps`
+Zaman çizelgeleri için:
+`docker compose --file .dev/docker-compose.yaml --file .dev/docker-compose.tests.yaml exec leantime-dev php vendor/bin/codecept run -g timesheet --steps`
+
+-----
+
+### 🏗 Güncelleme
+
+#### Manuel
+
+  * Veritabanınızın ve dosyalarınızın yedeğini aldığınızdan emin olun.
+  * Dizinizi güncellenmiş sürümle değiştirin.
+  * Veritabanı değişiklikleri varsa, sistem sizi `<alanadiniz.com>/update` adresine yönlendirecektir.
 
 #### CLI
-* Run `php bin/leantime system:update` 
+
+  * `php bin/leantime system:update` komutunu çalıştırın.
 
 #### Docker
-* Before updating, make sure your mysql container was started using a mounted volume, otherwise your content will be deleted
-* Delete/Stop existing container
-* Pull the latest docker image and rebuild using your compose file 
 
+  * Güncellemeden önce, mysql kapsayıcınızın bağlı bir birim kullanılarak başlatıldığından emin olun, aksi takdirde içeriğiniz silinir.
+  * Mevcut kapsayıcıyı silin/durdurun.
+  * En son docker görüntüsünü çekin ve compose dosyanızı kullanarak yeniden oluşturun.
 
-### Common Issues
+-----
 
-Please refer to our [documentation](https://docs.leantime.io/installation/common-issues) about common issues found when installing or updating Leantime 
+### Yaygın Sorunlar
 
-## 🔌 Extend Leantime ##
+Leantime'ı kurarken veya güncellerken karşılaşılan yaygın sorunlar hakkında [belgelerimize](https://docs.leantime.io/installation/common-issues) başvurabilirsiniz.
 
-You can extend Leantime by 
-- building your own plugin: [Plugin Docs](https://docs.leantime.io/development/plugin-development)
-- using our json-rpc API: [API Docs](https://docs.leantime.io/api/usage)
-- or by purchasing a plugin from our [marketplace](https://marketplace.leantime.io)
+-----
 
+## 🔌 Leantime'ı Genişletin
 
-## 🛟 Let us install it for you. ##
+Leantime'ı şu yollarla genişletebilirsiniz:
 
-Hassle free installation service in your environments. We can do full installations, updates, configurations or plugin installations. See our [Marketplace](https://marketplace.leantime.io/product-category/services/technical/) for details.<br/><br/>
+  * Kendi eklentinizi oluşturma: [Eklenti Belgeleri](https://docs.leantime.io/development/plugin-development)
+  * json-rpc API'mizi kullanma: [API Belgeleri](https://docs.leantime.io/api/usage)
+  * Veya [pazar yerimizden](https://marketplace.leantime.io) bir eklenti satın alarak.
 
-## ☁️ Not interested in hosting yourself? Let us do it for you ##
+-----
 
-We offer [managed hosting plans](https://leantime.io/managed-hosting/) as well as a [SaaS product](https://leantime.io/pricing/) so you can get all the benefits of Leantime without the hassle.
-Head to [leantime.io](https://leantime.io/) for more information.
-<br /><br />
+## 🛟 Sizin İçin Kurmamıza İzin Verin.
 
-## 🤙 Need technical support? ##
+Ortamlarınızda sorunsuz kurulum hizmeti. Tam kurulumlar, güncellemeler, yapılandırmalar veya eklenti kurulumları yapabiliriz. Ayrıntılar için [Pazar Yerimize](https://marketplace.leantime.io/product-category/services/technical/) bakın.
 
-We can help you set up Leantime in your environment and customize it to your needs. Our support plans are [outlined on our website](https://leantime.io/priority-support/).
+-----
 
-Please note: We currently only support the official Leantime docker compose and standard installations. 
-We only offer support for the most recent version. 
+## ☁️ Kendiniz barındırmakla ilgilenmiyor musunuz? Sizin için yapalım
 
-We do not offer support for Cloudron, Elestio, Turnkey, or other external distribution platforms sharing unofficial versions of Leantime. 
+[Yönetilen barındırma planları](https://leantime.io/managed-hosting/) ve bir [SaaS ürünü](https://leantime.io/pricing/) sunuyoruz, böylece Leantime'ın tüm avantajlarından zahmetsizce yararlanabilirsiniz.
+Daha fazla bilgi için [leantime.io](https://leantime.io/) adresine gidin.
 
-## 🫴 Contributing
+-----
 
-We're excited you are interested in contributing to Leantime. We want to make sure you have a great experience contributing to Leantime and that the new features you build will make it into core. 
-<br />
+## 🤙 Teknik desteğe mi ihtiyacınız var?
 
-### 🪲 Bugs
+Leantime'ı ortamınızda kurmanıza ve ihtiyaçlarınıza göre özelleştirmenize yardımcı olabiliriz. Destek planlarımız [web sitemizde](https://leantime.io/priority-support/) belirtilmiştir.
 
-Find an issue on Github (or create a new one) add your name to it or comment that you will be working on it. Once fixed, create a  Pull Request.
+Lütfen dikkat: Şu anda yalnızca resmi Leantime docker compose ve standart kurulumları destekliyoruz.
+Yalnızca en son sürüm için destek sunuyoruz.
 
-### New Features in Core
+Cloudron, Elestio, Turnkey veya Leantime'ın resmi olmayan sürümlerini paylaşan diğer harici dağıtım platformları için destek sunmuyoruz.
 
-If you have an idea about new features please reach out to us on Discord. This is where we coordinate feature development and discuss whether core is the right place to add your new features (Plugins is the alternative). 
+-----
 
-### 🌏 Translations
+## 🫴 Katkıda Bulunma
 
-Language files and translations are stored in `app/Language/* `. Once updates please create a Pull Request. 
+Leantime'a katkıda bulunmakla ilgilenmenize heyecan duyuyoruz. Leantime'a katkıda bulunurken harika bir deneyim yaşamanızı ve oluşturduğunuz yeni özelliklerin çekirdeğe dahil olmasını sağlamak istiyoruz.
 
-### 👥 Community Support
+### 🪲 Hatalar
 
-* Documentation [https://docs.leantime.io](https://docs.leantime.io)
-* Community Chat [Discord](https://discord.gg/4zMzJtAq9z)
-* File a bug report [https://github.com/Leantime/leantime/issues/new](https://github.com/Leantime/leantime/issues/new)
-* Translations [https://crowdin.com/project/leantime](https://crowdin.com/project/leantime)
-<br /><br />
-## ⚖️ LICENSE Exceptions
+Github'da bir sorun bulun (veya yeni bir tane oluşturun), adınızı ekleyin veya üzerinde çalışacağınızı belirtin. Düzeltildikten sonra bir Çekme İsteği oluşturun.
 
-Leantime is licensed under AGPLv3.
-This file forms part of the Leantime Software for which the following exception is added: Plugins within the `/app/Plugins` directory which may contain plugins licensed under other licenses including our enterprise license.
+### Çekirdekteki Yeni Özellikler
 
-<img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=856e290f-a6e9-4fbd-9b95-a835e39a0492" />
+Yeni özellikler hakkında bir fikriniz varsa lütfen Discord'dan bize ulaşın. Burası, özellik geliştirme koordinasyonunu yaptığımız ve yeni özelliklerinizi eklemek için çekirdeğin doğru yer olup olmadığını tartıştığımız yerdir (Eklentiler alternatifidir).
 
+### 🌏 Çeviriler
+
+Dil dosyaları ve çeviriler `app/Language/*` içinde saklanır. Güncellemelerden sonra lütfen bir Çekme İsteği oluşturun.
+
+### 👥 Topluluk Desteği
+
+  * Belgeler [https://docs.leantime.io](https://docs.leantime.io)
+  * Topluluk Sohbeti [Discord](https://discord.gg/4zMzJtAq9z)
+  * Hata raporu oluşturun [https://github.com/Leantime/leantime/issues/new](https://github.com/Leantime/leantime/issues/new)
+  * Çeviriler [https://crowdin.com/project/leantime](https://crowdin.com/project/leantime)
+
+-----
+
+## ⚖️ LİSANS İstisnaları
+
+Leantime, AGPLv3 lisansı altındadır.
+Bu dosya, aşağıdaki istisnanın eklendiği Leantime Yazılımının bir parçasını oluşturur: `/app/Plugins` dizini içindeki eklentiler, kurumsal lisansımız da dahil olmak üzere diğer lisanslar altında lisanslanmış eklentiler içerebilir.
+
+-----
